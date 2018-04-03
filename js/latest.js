@@ -1,3 +1,10 @@
+document.getElementById('butRefresh').addEventListener('click', function () {
+    // Get fresh, updated data from GitHub whenever you are clicked
+    toast('Fetching latest data...');
+    fetchCommits();
+    console.log("Getting fresh data!!!");
+});
+
 (function () {
     'use strict';
 
@@ -9,12 +16,7 @@
     var commitContainer = ['.first', '.second', '.third', '.fourth', '.fifth'];
     var posData = ['first', 'second', 'third', 'fourth', 'fifth'];
 
-    document.getElementById('butRefresh').addEventListener('click', function () {
-        // Get fresh, updated data from GitHub whenever you are clicked
-        toast('Fetching latest data...');
-        fetchCommits();
-        console.log("Getting fresh data!!!");
-    });
+
 
     // Check that localStorage is both supported and available
     function storageAvailable(type) {
