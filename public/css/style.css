@@ -1,13 +1,20 @@
 /*
+
 # BEM (BLOCK, ELEMENT, MODIFIER) METHEDOLOGY
+
 <div class="card card--show">
   <div class="card__title"></div>
   <div class="card__container">
+
   </div>
 </div>
+
 .card - BLOCK
+
 .card__title - ELEMENT
+
 .card--show - MODIFIER
+
 */
 
 
@@ -635,7 +642,6 @@ b i a {
     cursor: pointer; 
 }
   
-
 #butRefresh {
-    background: url() center center no-repeat; 
+    background: url(/images/ic_refresh_white_24px.svg) center center no-repeat; 
 }
