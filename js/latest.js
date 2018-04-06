@@ -1,10 +1,3 @@
-document.getElementById('butRefresh').addEventListener('click', function () {
-    // Get fresh, updated data from GitHub whenever you are clicked
-    toast('Fetching latest data...');
-    fetchCommits();
-    console.log("Getting fresh data!!!");
-});
-
 (function () {
     'use strict';
 
@@ -103,4 +96,11 @@ document.getElementById('butRefresh').addEventListener('click', function () {
     } else {
         toast("We can't cache your app data yet..");
     }
+    
+    document.getElementById('butRefresh').addEventListener('click', function() {
+    // Get fresh, updated data from GitHub whenever you are clicked
+    toast('Fetching latest data...');
+    fetchCommits();
+    console.log("Getting fresh data!!!");
+});
 })();
