@@ -1,7 +1,7 @@
 {
-  "name": "PWA - Commits",
-  "short_name": "PWA",
-  "description": "Progressive Web Apps for Resources I like",
+  "name": "O pacote",
+  "short_name": "PKG",
+  "description": "Organizando suas muambas",
   "start_url": "./index.html?utm=homescreen",
   "display": "standalone",
   "orientation": "portrait",
